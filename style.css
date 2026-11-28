@@ -94,3 +94,48 @@ nav a:hover{
     color:green;
     margin-left:10px;
 }
+
+#clock{
+    color:purple;
+    font-family:monospace;
+}
+
+.page{
+    padding:35px 5%;
+}
+.page p{
+    color:whitesmoke;
+}
+.kpi-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:16px;
+    margin-bottom:30px;
+}
+.kpi-card{
+    background: black;
+    padding:22px;
+    border:1px solid orange;
+    border-radius:10px;
+    transition: 0.2s;
+}
+.kpi-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.kpi-card span{
+    color:orange;
+    font-size:14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.kpi-card h2{
+    color:skyblue;
+    font-size:30px;
+    margin-top:10px;
+}
+.kpi-card p{
+    color:whitesmoke;
+    font-size:12px;
+    margin-top:5px;
+}
